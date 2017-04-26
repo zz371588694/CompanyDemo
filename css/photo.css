@@ -1,0 +1,44 @@
+body,ul,ol,h3,h4,h5,p{margin:0;padding: 0;font-family: "微软雅黑";font-size: 15px;}
+li{list-style: none;}
+a{text-decoration: none;color: black;}
+
+body{background: #fafafa;}
+.all{width:1226px;margin: 0 auto;}
+.clear{zoom:1;}
+.clear:after{content:'';display: block;clear:both;}
+img{border:none;}
+
+/* topbar*/
+#top_bar{background: url(../img/top_bar_bg.gif) no-repeat;height: 27px;width:100%;
+				color:#999;line-height: 27px;position: relative;z-index:100;}
+#top_bar span{float: left;line-height: 27px;}
+
+.top_bar_right{float:right;height: 27px;}
+.top_bar_right li{float: left;position: relative;}
+.top_bar_right a{color:#0083bd;display: block;padding: 0 10px ;border-right:2px solid #a4bfd6;}
+.top_bar_right a:hover{background: orange;}
+.top_bar_right .noBorder{border-right:0;}
+.top_bar_right #person_menu{position: absolute;background:ghostwhite;display: none;}
+.top_bar_right #person_menu li{float: none;}
+.top_bar_right  #person_menu li a{width:100px;height: 50px;border:none;line-height: 50px;}
+
+
+/*header*/
+/*meun*/
+.header{width:100%;line-height: 75px;margin:10px auto;}
+.header #headerMenu{position: relative;}
+.header .header_Menu_Li{float: left;width:200px;height:75px ;font-size:18px;text-align:center;position: relative;z-index: auto;}
+.header .header_Menu_Li a{height: 75px;width:200px;display: block;}
+.header  #headerBg{height: 75px;width:200px;display: block;background-color:orange;
+						position: absolute;top:0;left:0;z-index:-1;}
+.header_child_menu{background:ghostwhite;top:40px;position:absolute;z-index:1;display: none;}
+.header_child_menu li{display: block;width:200px;height: 40px;line-height: 40px;border-bottom:1px solid #a4bfd6;}
+.header_child_menu li a:hover{color:orange;}
+
+.content{width:80%;margin:20px auto;}
+.content .content_imgList{}
+.content .content_imgList li{float: left;margin:0  50px 20px 0;padding: 20px;}
+.content .content_imgList li a{display: block;width:300px;height: 300px;}
+.content .content_imgList li a{transition:transform 0.3s ease;-webkit-transition: transform 0.3 ease;-moz-transition:transform 0.3 ease;}
+.content .content_imgList li a:hover{transform: scale(1.05);-webkit-transform: scale(1.05);-moz-transform: scale(1.05);}													
+.content .content_imgList li a img{width:150px;height: 150px;float: left;}
