@@ -82,7 +82,7 @@ body{background: #fafafa;}
 .footer ul li a:hover{color:orange}
 
 /*slide_bar*/
-.slide_bar{position: fixed;top:130px;background-color: #fff;}
+.slide_bar{position: fixed;top:130px;left:-110px;background-color: #fff;}
 .slide_bar span{display: block;width:110px;height: 56px;padding-left:14px;padding-top:22px;font-size:18px;font-weight: bold;
 						background: url(../img/slide_bar_title.gif) no-repeat;color:#797983;}
 .slide_bar ul li{border-bottom:1px solid #e6e6e6;font-size:12px}
