@@ -3,8 +3,17 @@ var common = {}
 common.init = function(){
 	var settingDialog =  new Dialog('personSetting',{pos:'center',title:'个人设置',resize:true,width:250,height:200,drag:true,modal:true});
 	var btnSetting = document.querySelector('#setting');
+	var slideBar = document.querySelector('#slide');
 	common.tool.addEvent(btnSetting,'click',function(){
 		settingDialog.Open();
+	})
+	
+	common.tool.addEvent(slideBar,'mouseover',function(){
+		common.flexMove(slideBar,0,'left',null);
+	})
+	
+	common.tool.addEvent(slideBar,'mouseout',function(){
+		common.flexMove(slideBar,-110,'left',null);
 	})
 }
 
